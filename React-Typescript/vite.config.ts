@@ -7,4 +7,7 @@ export default defineConfig({
   plugins: [preact()
     ,tailwindcss()
   ],
+  build: {
+    outDir: 'dist',
+  },
 })
